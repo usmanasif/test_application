@@ -1,0 +1,7 @@
+<%= form_for @gif do |f| %>
+  <div>
+    Add an Image
+    <%= f.file_field :file %>
+
+    <%= f.submit :Submit, class: 'btn btn-success' %>
+<% end %>
